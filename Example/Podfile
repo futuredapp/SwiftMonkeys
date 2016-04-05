@@ -2,11 +2,13 @@ source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
 target 'SwiftMonkeys_Example', :exclusive => true do
-  pod 'SwiftMonkeys', :path => '../'
+    pod 'Fabric'
 end
 
 target 'SwiftMonkeys_Tests', :exclusive => true do
-  pod 'SwiftMonkeys', :path => '../'
+    pod 'FBSnapshotTestCase'
+end
 
-  pod 'FBSnapshotTestCase'
+target 'SwiftMonkeys_ExampleUITests', :exclusive => true do
+  pod 'SwiftMonkeys', :path => '../'
 end
