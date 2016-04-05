@@ -1,0 +1,6 @@
+framework module SwiftMonkeys {
+  umbrella header "SwiftMonkeys-umbrella.h"
+
+  export *
+  module * { export * }
+}

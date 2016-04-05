@@ -1,0 +1,24 @@
+PODS:
+  - Fabric (1.6.7)
+  - FBSnapshotTestCase (2.1.0):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.0)
+  - FBSnapshotTestCase/Core (2.1.0)
+  - FBSnapshotTestCase/SwiftSupport (2.1.0):
+    - FBSnapshotTestCase/Core
+  - SwiftMonkeys (0.1.0)
+
+DEPENDENCIES:
+  - Fabric
+  - FBSnapshotTestCase
+  - SwiftMonkeys (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftMonkeys:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Fabric: caf7580c725e64db144f610ac65cd60956911dc7
+  FBSnapshotTestCase: 366ecd378511d7716c79991cd8067d1eed23578d
+  SwiftMonkeys: 8a61aad8d9f7ad1e2e11a0861cf8d1559fa597bf
+
+COCOAPODS: 0.39.0

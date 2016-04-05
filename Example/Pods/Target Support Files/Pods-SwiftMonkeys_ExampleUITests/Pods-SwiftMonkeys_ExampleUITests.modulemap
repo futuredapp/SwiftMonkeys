@@ -1,0 +1,6 @@
+framework module Pods_SwiftMonkeys_ExampleUITests {
+  umbrella header "Pods-SwiftMonkeys_ExampleUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

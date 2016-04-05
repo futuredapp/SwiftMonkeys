@@ -1,0 +1,26 @@
+{
+  "name": "SwiftMonkeys",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftMonkeys.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/SwiftMonkeys",
+  "license": "MIT",
+  "authors": {
+    "jakubknejzlik": "jakub.knejzlik@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/SwiftMonkeys.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.1"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "SwiftMonkeys": [
+      "Pod/Assets/*.png"
+    ]
+  },
+  "frameworks": "XCTest"
+}
